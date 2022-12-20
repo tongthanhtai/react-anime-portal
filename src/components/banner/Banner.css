@@ -1,0 +1,138 @@
+.banner {
+    text-align: center;
+    margin-top: 60px;
+   
+}
+
+.hero_1{
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box; 
+}
+
+.label {
+    font-size: 13px;
+    height: 27px;
+    width: 90px;
+    background-color: #fff;
+    color: red;
+    text-align: left;
+    padding: 5px 14px 3px;
+    position: relative;
+    top: -305px;
+    right: -305px;
+}
+
+
+.label_content {
+    position: relative;
+    top: -305px;
+    right: -305px;
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.label_content h2{
+    font-size: 42px;
+    display: contents;
+}
+
+.label_content p{
+    font-size: 16px;
+}
+
+.label_content > span{
+    font-size: 13px;
+    color: #ffffff;
+    background: #e53637;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 14px 20px;
+    border-radius: 4px 0 0 4px;
+    margin: auto;
+}
+
+.label_arrow {
+    border: none;
+    font-size: 13px;
+    background: #e53637;
+    padding: 14px 5px 14px 7px;
+    color: #ffffff;
+    border-radius: 0 4px 4px 0;
+    margin-left: 3px;
+}
+
+
+.button_arrow_left{
+    height: 66px;
+    width: 66px;
+    font-size: 20px;
+    background: #0b0c2a;
+    color: #fff;
+    transform: rotate(-45deg);
+    left: 220px;
+    right: auto;
+    top: 50%;
+    position: absolute;
+    margin-top: -47px;
+    border: none;
+    z-index: 1;
+    line-height: 66px;
+}
+
+.button_arrow_left::after {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    right: 0;
+    height: 54px;
+    width: 54px;
+    background: rgba(255, 255, 255, 0.1);
+    content: "";
+    z-index: -1;
+    margin: 0 auto;
+}
+
+.arrow_left {
+    transform: rotate(45deg);
+    text-align: center;  
+}
+
+.button_arrow_right {
+    height: 66px;
+    width: 66px;
+    font-size: 20px;
+    background: #0b0c2a;
+    color: #fff;
+    transform: rotate(45deg);
+    left: auto;
+    right: 220px;
+    top: 50%;
+    position: absolute;
+    margin-top: -47px;
+    border: none;
+    z-index: 1;
+    line-height: 66px;
+}
+
+.button_arrow_right::after {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    right: 0;
+    height: 54px;
+    width: 54px;
+    background: rgba(255, 255, 255, 0.1);
+    content: "";
+    z-index: -1;
+    margin: 0 auto;
+}
+
+.arrow_right {
+    transform: rotate(-45deg);
+    text-align: center;   
+}
